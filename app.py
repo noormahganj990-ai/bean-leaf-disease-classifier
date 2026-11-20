@@ -5,7 +5,7 @@ from PIL import Image
 from transformers import AutoImageProcessor, AutoModelForImageClassification
 
 # ---- CHANGE THIS to your Hugging Face model repo ----
-MODEL_ID = "YOUR_HF_USERNAME/bean-leaf-vit"
+MODEL_ID = "Mahganj123/bean-leaf-vit"
 
 st.set_page_config(page_title="Bean Leaf Disease Detector", page_icon="🌿", layout="centered")
 
